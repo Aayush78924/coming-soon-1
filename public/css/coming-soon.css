@@ -98,7 +98,7 @@ div#content {
 .logo_box {
   width: 349px;
   float: left;
-  border-right: 1px solid #303030;
+  /* border-right: 1px solid #303030; */
   height: 280px;
   position: relative;
 }
@@ -286,4 +286,44 @@ footer a {
   margin: 0 25px;
   line-height: 2;
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main_box {
+    position: relative; 
+    font-size: 12px;
+    width: 100%;
+    bottom: 24vw;
+    /* padding: 20px; */
+    
+  }
+
+  .logo_box{
+    margin-left: -5vw;
+    margin-top: -132px!important;
+  }
+
+  .logo_box .logo {
+    width: 120px;
+    height: auto;
+    /* margin-top: -12px; */
+    border-color: black;
+  }
+ h2 {
+   margin-left: 0vw;
+    width: 350px;
+    text-align: center;
+  }
+  p {
+    width: 345px;
+    text-align: center;
+  }
+
+  .social{
+    width: 270px;
+    margin-left: 7.5vw !important;;
+    align-items: center !important;
+    margin-top: 5vh!important;
+  }
 }
